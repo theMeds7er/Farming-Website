@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; /* Improve text rendering in macOS */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.15; /* Adjusted line height for consistency */
+}
+
+.main {
+  margin-left: 15%;
+  font-size: 22px;
+  line-height: 35px;
+  padding: 1% 5%;
+  padding-left: 10%;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 2px 20px #e6e9ea;
+  overflow-x: hidden;
+}
+
+.navblock {
+  margin:auto;
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+.navblock_text {
+  margin:auto;
+  width: 100%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.navblock_text a {
+  padding: 26px 16px 26px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.navblock_text a:hover {
+  color: #CFD8DC;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #818181;
+  text-align: center;
+}
+
+.main > div{
+  margin-top: 5%;
+  display: flex;
+}
+
+.main > div > h1{
+ padding-top: 3%;
+} 
+
+.main > div > img{
+  width:100px;
+  height: 100px;
+}
+
+
+.about_photo{
+  width: 500px;
+  height:300px;
+  object-fit:cover;
+  border-radius:5%;
+  margin-top: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.about_photo1{
+  width: 400px;
+  height:300px;
+  object-fit:cover;
+  border-radius:5%;
+}
+
+.about{
+ padding-top: 5%;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.about2{
+  display:flex;
+  justify-content: space-evenly;
+
+}
+
+.about > div{
+  width: 50%;
+  height: 0%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.about_text {
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  margin-left: 0%;
+  margin-bottom: 15%;
+  border-radius: 50px;
+  background-color: rgb(248, 246, 246);
+  box-shadow: 2px 10px 20px #bcbcbc;
+  width:100%;
+}
+
+
+
+.partners > h2{
+  padding-left: 50%;
+  color: green;
+  
+}
+
+.partners > h2{
+  font-size: x-large;
+  margin-bottom: 5%;
+}
+
+
+.logo{
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.logo > a > img{
+  width: 100px;
+  height: 100px;
+}
+
+#uwLogo{
+  margin-top: 2%;
+  width: 400px;
+  height: 100px;
+
+}
+
+
+
+h1{
+  font-size: 150%;
+}
+
+
+.about_text2 {
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+  margin-left: 0%;
+  border-radius: 50px;
+  background-color: rgb(248, 246, 246);
+  box-shadow: 2px 10px 20px #bcbcbc;
+  width:100%;
+  height: 800px;
+}
+
+.appImg{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.appImg > img{
+  width: 350px;
+  height: 250px;
+  margin-top: 10%;
+  object-fit: cover;
+  border-radius: 25px;
+
+}
+
+
+
+.about_text h1,
+.about_text2 h1 {
+  padding-bottom: 5%;
+  color: green;
+}
+
+ p , ul{
+  font-size: medium;
+  
+}
+
+.about_text ul,
+.about_text2 ul {
+  padding-left: 10%;
+}
+
+
+
+
+
+.team{
+  margin:5%;
+}
+
+.person > img{
+  width:100px;
+  height:100px;
+  border-radius: 25%;
+  object-fit: cover;
+  margin-right: 10%;
+}
+
+
+
+.projects {
+  margin-left: 20%;
+  font-size: 22px;
+  line-height: 35px;
+  padding-right: 10%;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+
+.projects > h1{ 
+  color: green;
+  margin-top:5%;
+  margin-bottom:10%;
+}
+
+.project1{
+  margin: 5% 25% 10% 0%  ;
+  padding: 10% 10% 10% 10%;
+  border-radius: 50px;
+  background-color: rgb(248, 246, 246);
+  box-shadow: 2px 10px 20px #bcbcbc;
+  width:100%;
+  display: flex;
+}
+
+.project1 > img{
+  margin-left: 5%;
+  width: 40%;
+  height: 40%;
+  border-radius: 25%;
+}
+
+.project2 > img{
+  margin-right: 5%;
+  width: 300px;
+  height: 300px;
+  border-radius: 25%;
+}
+.project2{
+  margin: 5% 25% 10% 10%  ;
+  padding: 10% 10% 10% 10%;
+  border-radius: 50px;
+  background-color: rgb(248, 246, 246);
+  box-shadow: 2px 10px 20px #bcbcbc;
+  width:100%;
+  display: flex;
+}
+
+.project1 h2, 
+.project2 h2{
+  padding-bottom: 5%;
+  color: green;
+}
+
+.team{
+  margin-left:20%;
+  padding-left: 10%;
+  padding-right: 5%;
+
+}
+
+
+.person{
+  padding-top: 2%;
+  margin-bottom: 10%;
+  box-shadow: 2px 2px 20px #e6e9ea;
+  width: 100%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.person > .img > img{
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin:5% 5% 5% 10%;
+  
+}
+
+.person >  .pHeader > h2{
+  padding-top: 25%;
+  margin-right: 5%;
+  color: green;
+  width: 300px;
+}
+
+.person > .pHeader{
+  padding-top: 10;
+  padding-right: 20%;
+}
+
+
+
+
+.Event{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  margin-bottom: 10%;
+  box-shadow: 2px 2px 20px #e6e9ea;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.Event > .img > img{
+  margin-left: 15%;
+  margin-bottom:10%;
+  width: 300px;
+  height: 300px;
+}
+
+.Event > div > h2{
+  padding-top: 20%;
+  padding-right: 10%;
+  margin-right: 50%;
+  color: green;
+  width: 450px;
+}
+
+.Event > div{
+  padding-top: 10;
+  padding-right: 20%;
+}
+
+
+.tierhead h3{
+  background-color: rgb(248, 246, 246);
+  color: green;
+  box-shadow: 2px 10px 20px #e6e9ea;
+  padding: 5% 7% 5% 5%;
+  border-radius: 50px;
+  margin: 0%;
+}
+.tier{
+  background-color: rgb(248, 246, 246);
+  box-shadow: 2px 10px 20px #bcbcbc;
+  padding:5%;
+  padding-right: 8%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tier h4{
+  text-align: center;
+}
+
+.tier p{
+  font-size: medium;
+  text-align: center;
+}
+
+#disclam{
+  padding-top: 5%;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+}
+
+.tier2{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: 0px 10px 40px #F0F3F4;
+  }
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+  .navblock_text a {
+    padding: 16px;
+  }
+  .footer {
+    display: none;
+  }
+  .main {
+    margin-left: 0;
+    padding: 20% 4% 20% 4%;
+  }
+
+  
+}
